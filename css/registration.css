@@ -1,0 +1,254 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.wrapper h1{
+    color: #000;
+    font: 500 30px/34px Ubuntu;
+    margin-bottom: 28px;
+}
+.wrapper .form{
+    width: 600px;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 43px 67px 67px 67px;
+}
+.wrapper .form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper .form form a{
+    color: #000;
+    font: 300 16px/18px Ubuntu;
+    opacity: 0.75;
+    text-decoration: underline;
+}
+.wrapper .form form a:hover{
+    opacity: 1;
+}
+.wrapper .form form .form-item{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper .form form .form-item label{
+    color: #000;
+    font: 300 18px/21px Ubuntu;
+}
+.wrapper .form form .form-item input{
+    width: 466px;
+    height: 55px;
+    border: 1px solid #8E8E8E;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: #000;
+    font: 300 18px/21px Ubuntu;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 15px;
+}
+.wrapper .form form .form-item select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    width: 466px;
+    height: 55px;
+    border: 1px solid #8E8E8E;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 15px;
+    cursor: pointer;
+    color: #000;
+    font: 300 18px/21px Ubuntu;
+}
+.wrapper .form form .form-item select::-ms-expand{
+    display: none;
+}
+.select-wrapper{
+    position: relative;
+}
+.select-wrapper::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8.7px 5px 0 5px;
+    border-color: #FF5800 transparent transparent transparent;
+    pointer-events: none;
+}
+.wrapper .form form P{
+    color: #FF5800;
+    font: 300 13px/15px Ubuntu;
+    margin-top: 7px;
+}
+.wrapper .form form button{
+    width: 466px;
+    height: 55px;
+    background: #FF5800;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font: 500 18px/21px Ubuntu;
+    transition: 0.3s;
+}
+.wrapper .form form button:hover{
+    background: #FFFFFF;
+    color: #FF5800;
+    border: 1px solid #FF5800;
+}
+.wrapper .form form .submit{
+    margin-top: 48px;
+    margin-bottom: 34px;
+}
+.wrapper .form form .submit-user{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.wrapper .form form .reg-user{
+    margin-top: 15px;
+    margin-bottom: 34px;
+}
+@media (max-width: 414px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .wrapper h1{
+        color: #000;
+        font: 500 20px/23px Ubuntu;
+        margin-bottom: 28px;
+    }
+    .wrapper .form{
+        width: 100%;
+        height: auto;
+        background: #FFFFFF;
+        border-radius: 5px;
+        padding: 43px 15px 43px 15px;
+    }
+    .wrapper .form form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .wrapper .form form a{
+        color: #000;
+        font: 300 16px/18px Ubuntu;
+        opacity: 0.75;
+        text-decoration: underline;
+    }
+    .wrapper .form form a:hover{
+        opacity: 1;
+    }
+    .wrapper .form form .form-item{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .wrapper .form form .form-item label{
+        color: #000;
+        font: 300 18px/21px Ubuntu;
+    }
+    .wrapper .form form .form-item input{
+        width: 100%;
+        height: 45px;
+        border: 1px solid #8E8E8E;
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        color: #000;
+        font: 300 18px/21px Ubuntu;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        padding-left: 15px;
+    }
+    .wrapper .form form .form-item select{
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        outline: none;
+        width: 100%;
+        height: 45px;
+        border: 1px solid #8E8E8E;
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        cursor: pointer;
+        color: #000;
+        font: 300 18px/21px Ubuntu;
+    }
+    .wrapper .form form .form-item select::-ms-expand{
+        display: none;
+    }
+    .select-wrapper{
+        position: relative;
+    }
+    .select-wrapper::before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        transform: translateY(-50%);
+        display: block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 8.7px 5px 0 5px;
+        border-color: #FF5800 transparent transparent transparent;
+        pointer-events: none;
+    }
+    .wrapper .form form P{
+        color: #FF5800;
+        font: 300 13px/15px Ubuntu;
+        margin-top: 7px;
+    }
+    .wrapper .form form button{
+        width: 100%;
+        height: 55px;
+        background: #FF5800;
+        border-radius: 5px;
+        color: #FFFFFF;
+        font: 500 18px/21px Ubuntu;
+        transition: 0.3s;
+    }
+    .wrapper .form form button:hover{
+        background: #FFFFFF;
+        color: #FF5800;
+        border: 1px solid #FF5800;
+    }
+    .wrapper .form form .submit{
+        margin-top: 48px;
+        margin-bottom: 34px;
+    }
+    .wrapper .form form .submit-user{
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .wrapper .form form .reg-user{
+        margin-top: 15px;
+        margin-bottom: 34px;
+    } 
+}

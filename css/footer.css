@@ -1,0 +1,26 @@
+footer {
+    width: 100%;
+    height: fit-content;
+    background-color: #6F6F6F;
+  }
+  footer .footer_container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px ;
+    padding-left: 100px;
+    padding-bottom: 30px;
+  }
+  footer .footer_container h1{
+    color: #FFFFFF;
+    font: 500 12px/14px Ubuntu;
+    margin-bottom: 10px;
+  }
+  footer .footer_container a{
+    color: #FFFFFF;
+    font: 400 12px/14px Ubuntu;
+    margin-bottom: 3px;
+    transition: 0.1s;
+  }
+  footer .footer_container a:hover{
+    color: #FF5800;
+  }

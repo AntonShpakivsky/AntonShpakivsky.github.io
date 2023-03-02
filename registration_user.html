@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    <title>VSETUT</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/registration.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Новый клиент VSETUT</h1>
+        <div class="form" id="form">
+            <form name="publish"   >
+                <div class="form-item" >
+                    <label for="formName">Имя пользователя:</label>
+                    <input type="text"  name="name">
+                </div>
+                <div class="form-item">
+                    <label for="formEmail">E-mail или номер телефона:</label>
+                    <input type="text"  name="email">
+                </div>
+                <div class="form-item">
+                    <label for="formName">Пароль:</label>
+                    <input type="password"  name="password">
+                </div>
+                <div class="form-item">
+                    <label for="formName">Подтвердить пароль:</label>
+                    <input type="password"  name="password2">
+                </div>
+                <div class="form-item">
+                    <label for="formName">Укажите город / населённый пункт:</label>
+                    <p>
+                        * В личных настройках Вы можете изменить место прибывания
+                    </p>
+                    <input type="text"  name="city">
+                </div>
+                <style>
+                    #test22{
+                        display: block;
+                        text-decoration: none;
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                </style>
+                <button class="submit-user" type="submit"><a href = "./index.html" id = "test22">РЕГИСТРАЦИЯ</a></button>
+            </form>
+        </div>
+    </div>
+    <script src="./js/users.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+header{
+    margin-bottom: 25px;
+}
+header .firstline{
+    display: flex;
+    justify-content: space-between;
+}
+header .firstline p:first-child{
+    color: #FF5800;
+    font: 400 30px/34px Ubuntu; 
+}
+main form{
+    display: flex;
+    flex-direction: column;
+}
+main form .firstline,
+main form .secondline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main form .secondline .categories{
+    display: flex;
+    flex-direction: column;
+}
+main p{
+    color: #000;
+    font: 400 20px/23px Ubuntu;
+}
+input{
+    display: none;
+}
+label{
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    font: 400 20px/23px Ubuntu;
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    margin-right: 22px;
+    position: relative;
+}
+.check::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 10px;
+    background-image: url("../../img/check.svg") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.checkbox:checked + .check::before{
+    opacity: 1; 
+}
+.red-text{
+    color: #FF0000;
+    font: 400 20px/23px Ubuntu;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 265px;
+    height: 55px;
+    background: #8ABBC4;
+    color: #FFFF;
+    font: 400 20px/23px Ubuntu;
+    margin-right: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

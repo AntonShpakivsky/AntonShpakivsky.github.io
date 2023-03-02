@@ -1,0 +1,307 @@
+.container_user_profile_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1240px;
+    max-width: (100% - 100px);
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+.container_user_profile_1 .firstline,
+.container_user_profile_1 .secondline,
+.container_user_profile_1 .thirdline,
+.container_user_profile_1 .fourthline,
+.container_user_profile_1 .fifthline{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    background: #FFFFFF;
+    border: 0.967767px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 14.5165px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    padding: 15px 20px 15px 20px;
+}
+.container_user_profile_1 .firstline:hover,
+.container_user_profile_1 .secondline:hover,
+.container_user_profile_1 .thirdline:hover,
+.container_user_profile_1 .fourthline:hover,
+.container_user_profile_1 .fifthline:hover{
+    box-shadow:0 0 20px #b9b9b9;
+}
+.container_user_profile_1 .secondline{
+    height: 200px;
+    justify-content: flex-start;
+}
+.container_user_profile_1 .thirdline{
+    height: 415px;
+}
+.container_user_profile_1 .fourthline{
+    height: 130px;
+}
+.container_user_profile_1 .fifthline{
+    height: 130px;
+}
+.container_user_profile_1 .firstline .user_name-avatar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container_user_profile_1 .firstline .user_name-avatar .avatar{
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F4F4F4;
+    border: 1px solid #FF5800;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative; 
+    margin-right: 20px;
+}
+.container_user_profile_1 .firstline p,
+.container_user_profile_1 .secondline p,
+.container_user_profile_1 .thirdline p,
+.container_user_profile_1 .fourthline p,
+.container_user_profile_1 .fifthline p{
+    color: #000;
+    font: 400 20px/23px Ubuntu;
+    margin-right: 2px;
+}
+.container_user_profile_1 .firstline .user_name-avatar .add_photo{
+    display: block;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: #F4F4F4;
+    border: 0.287671px solid #FF5800;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: 79%;
+}
+.container_user_profile_1 .firstline .data_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container_user_profile_1 .firstline .data_container .email .email-inner,
+.container_user_profile_1 .firstline .data_container .phone .phone-inner,
+.container_user_profile_1 .firstline .data_container .birth-day .birth-day-inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container_user_profile_1 .firstline .data_container .email .email-inner p,
+.container_user_profile_1 .firstline .data_container .phone .phone-inner p,
+.container_user_profile_1 .firstline .data_container .birth-day .birth-day-inner p{
+    color: #000;
+    font: 400 16px/18px Ubuntu;
+}
+.container_user_profile_1 .firstline .data_container .email p,
+.container_user_profile_1 .firstline .data_container .phone p,
+.container_user_profile_1 .firstline .data_container .birth-day p,
+.container_user_profile_1 .firstline .data_container .gender p{
+    color: #828282;
+    font: 400 16px/18px Ubuntu;
+}
+.container_user_profile_1 .firstline .data_container .gender {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+form{
+    display: flex;
+    flex-direction: row;
+}
+form label{
+    display: flex;
+    flex-direction: row;
+}
+input {
+    display: none;
+}
+input + label span {
+    border: 1px solid #FF5800;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+input:checked + label span {
+    border: 2px solid #FF5800;   
+}
+input:checked + label span .inner{
+    border-radius: 50%;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #FF5800;
+    position: relative;
+}
+label{
+    color: #000;
+    font: 400 16px/18px Ubuntu;
+    margin-right: 15px;
+}
+form label span{
+    margin-right: 3px;
+}
+.container_user_profile_1 .secondline .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 90px;
+    background: #FFFFFF;
+    border: 2px solid rgba(255, 121, 51, 0.42);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.container_user_profile_1 .secondline .container p{
+    color: #FF5800;
+    font: 400 9px/10.5px Ubuntu;
+    margin-top: 7px;
+}
+.container_user_profile_1 .secondline .container .add-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #F4F4F4;
+    border: 0.684932px solid #FF5800;
+    box-sizing: border-box;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.container_user_profile_1 .thirdline .sales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.container_user_profile_1 .thirdline .sales .block-1,
+.container_user_profile_1 .thirdline .sales .block-2,
+.container_user_profile_1 .thirdline .sales .block-3,
+.container_user_profile_1 .thirdline .sales .block-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 273px;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+.container_user_profile_1 .thirdline .sales .block-1{
+    height: 140px;
+    background: #FFBC99;  
+}
+.container_user_profile_1 .thirdline .sales .block-2{
+    height: 213px;
+    background: #E3E3E3;  
+}
+.container_user_profile_1 .thirdline .sales .block-3{
+    height: 275px;
+    background: #E3E3E3;  
+}
+.container_user_profile_1 .thirdline .sales .block-4{
+    height: 300px;
+    background: #E3E3E3;  
+    margin-right: 0px;
+}
+.container_user_profile_1 .secondline .container .add-cards:hover{
+    box-shadow:0 0 20px #ffc494;
+}
+.container_user_profile_1 .thirdline .container p:nth-child(2){
+    color: #828282;
+    font: 400 15px/17px Ubuntu;
+    margin-top: 20px;
+}
+.container_user_profile_1 .thirdline .sales p:nth-child(2){
+    color: #9F9898;
+    font: 400 15px/17px Ubuntu;
+}
+.container_user_profile_1 .thirdline .sales .block-1 p:nth-child(2){
+    color: #000;
+}
+.container_user_profile_1 .fourthline .container-1 p:last-child{
+    color: #9F9898;
+    font: 400 11px/14px Ubuntu;
+}
+.container_user_profile_1 .fourthline .container-2 label{
+    color: #000;
+    font: 400 13px/15px Ubuntu; 
+}
+.container_user_profile_1 .fourthline .container-2 p{
+    color: #9F9898;
+    font: 400 11px/14px Ubuntu; 
+}
+.container_user_profile_1 .fourthline .container-2 form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.container_user_profile_1 .fourthline .container-2 form .value-1,
+.container_user_profile_1 .fourthline .container-2 form .value-2,
+.container_user_profile_1 .fourthline .container-2 form .value-3,
+.container_user_profile_1 .fourthline .container-2 form .value-4 .inner{
+    display: flex;
+    flex-direction: row;
+}
+.check{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #FFFFFF;
+    border: 1px solid #FF5800;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 4px;
+    position: relative;
+}
+.check::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 19px;
+    height: 15px;
+    background-image: url(../img/checkMark.svg);
+    opacity: 0;
+}
+.checkbox:checked + .check::before{
+    opacity: 1;
+}
+.container_user_profile_1 .fifthline p:nth-child(2){
+    color: #9F9898;
+    font: 400 15px/17px Ubuntu;
+}
+.container_user_profile_1 .fifthline a{
+    color: #FF5800;
+    font: 400 14px/16px Ubuntu;
+    position: relative;
+}
+.container_user_profile_1 .fifthline a::after{
+    content: "";
+    position: relative;
+    display: block;
+    width: 164px;
+    height: 2px;
+    background: #FF5800;
+
+}

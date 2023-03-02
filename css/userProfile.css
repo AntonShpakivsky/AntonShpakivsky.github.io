@@ -1,0 +1,414 @@
+/* user_profile */
+.container_user_profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  .container_user_profile-inner{
+    width: calc(100% - 210px);
+  }
+  .firstline_user_profile,
+  .secondline_user_profile,
+  .thirdline_user_profile{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .firstline_user_profile{
+    margin-top: 40px;
+  }
+  .firstline_user_profile,
+  .secondline_user_profile{
+    margin-bottom: 15px;
+  }
+  .thirdline_user_profile{
+    padding-bottom: 90px;
+  }
+  .user_name,
+  .user_delivery,
+  .user_discounts{
+    width: 40%;
+    height: 242px;
+    background: #FFFFFF;
+    border: 0.967767px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 14.5165px;
+  }
+  .user_name,
+  .user_delivery,
+  .user_discounts,
+  .user_cards,
+  .user_purchases,
+  .user_favorite_brands,
+  .user_finance,
+  .user_favourites {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 20px 15px 20px;
+    transition: 0.2s;
+  }
+  
+  .user_cards,
+  .user_purchases,
+  .user_favorite_brands,
+  .user_notice{
+    width: 30%;
+    height: 104px;
+    background: #FFFFFF;
+    border: 0.967767px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 14.5165px;
+  }
+  .user_finance,
+  .user_favourites{
+    width: 50%;
+    height: 189px;
+    background: #FFFFFF;
+    border: 0.967767px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 14.5165px;
+  }
+  .user_name-avatar,
+  .user_delivery-avatar,
+  .user_discounts-avatar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .user_name-avatar .avatar,
+  .user_delivery-avatar .avatar,
+  .user_discounts-avatar .avatar,
+  .user_finance-avatar .avatar{
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F4F4F4;
+    border: 1px solid #FF5800;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .user_name-avatar p,
+  .user_delivery-avatar p,
+  .user_discounts-avatar p{
+    color: #000;
+    font: 400 20px/22px Ubuntu;
+    margin-left: 20px;
+  }
+  .user_name-data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .user_name-data a{
+    color: #000;
+    font: 400 12px/14px Ubuntu;
+  }
+  .user_name-data a:first-child{
+    color: #656464;
+  }
+  .user_name-data a:last-child{
+    text-decoration: underline;
+  }
+  .user_delivery-data{
+    display: flex;
+    flex-direction: row;
+  }
+  .user_delivery-data p{
+    color: #000;
+    font: 400 12px/14px Ubuntu;
+  }
+  .user_delivery-data p:first-child{
+    color: #656464;
+  }
+  .user_delivery-data p:last-child{
+    margin-left: 3px;
+  }
+  .user_discounts-data p{
+    color: #000;
+    font: 400 20px/22px Ubuntu;
+  }
+  .user_notice{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px 15px 20px;
+    justify-content: center;
+    transition: 0.2s;
+  }
+  .user_cards,
+  .user_purchases,
+  .user_favorite_brands {
+    justify-content: center;
+  }
+  .user_cards p,
+  .user_purchases p,
+  .user_favorite_brands p,
+  .user_notice p{
+    color: #000;
+    font: 400 20px/22px Ubuntu;
+    margin-bottom: 10px;
+  }
+  .user_cards button{
+    all: unset;
+    cursor: pointer;
+    color: #656464;
+    font: 400 14px/16px Ubuntu;
+    transition: 0.1s;
+  }
+  .user_cards button:hover{
+    color: #FF5800;
+  }
+  .user_purchases p:last-child,
+  .user_favorite_brands p:last-child,
+  .user_notice p:last-child{
+    color: #656464;
+    font: 400 14px/16px Ubuntu;
+  }
+  .user_notice-bell{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .user_notice-bell img{
+    width: 15px;
+    height: 20px;
+    margin-right: 3px;
+  }
+  .user_finance-avatar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .user_finance-avatar button{
+    all: unset;
+    cursor: pointer;
+    color: #656464;
+    font: 500 14px/16px Ubuntu;
+    margin-right: 25px;
+    transition: 0.1s;
+  }
+  .user_finance-avatar button:hover{
+    color: #FF5800;
+  }
+  .user_finance-avatar .avatar{
+    margin-right: 56px;
+  }
+  .user_finance p{
+    color: #000;
+    font: 500 20px/2px Ubuntu;
+    padding-top: 15px;
+  }
+  .user_finance{
+    padding-bottom: 30px;
+  }
+  .user_favourites p:first-child{
+    color: #000;
+    font: 500 20px/2px Ubuntu;
+    padding-top: 15px;
+  }
+  .user_favourites p:last-child{
+    color: #656464;
+    font: 500 14px/16px Ubuntu;
+  }
+  .user_favourites{
+    padding-right: 50px;
+    padding-bottom: 30px;
+  }
+  .user_name:hover,
+  .user_delivery:hover,
+  .user_discounts:hover,
+  .user_cards:hover,
+  .user_purchases:hover,
+  .user_favorite_brands:hover,
+  .user_finance:hover,
+  .user_favourites:hover,
+  .user_notice:hover {
+    box-shadow:0 0 20px #b9b9b9;
+  }
+  .version-phone{
+    display: none;
+  }
+  .block_main_phone{
+    display: none;
+  }
+  .footer-phone{
+    display: none;
+  }
+  .block_main_phone{
+    display: none;
+  }
+  .wrapper1{
+    display: none;
+  }
+@media (max-width: 414px){
+  .container_user_profile{
+    display: none 
+  }
+  .version-phone{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -70px;
+    margin: 15px;
+  }
+  .version-phone h1{
+    color: #000;
+    font: 400 18px/21px Ubuntu;
+  }
+  .version-phone p{
+    color: #7C7C7C;
+    font: 400 11px/13px Ubuntu;
+  }
+  
+  .delivery,
+  .favourites,
+  .buy,
+  .favorite_brands,
+  .finance,
+  .help,
+  .feedback,
+  .Information{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 15px 15px 15px 30px;
+    background: #FFFFFF;
+    border: 1px solid #FF5800;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  .delivery{
+    padding: 10px;
+  }
+  .secondline{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+  }
+  .sale,
+  .cards{
+    width: 50%;
+    height: auto;
+    padding: 15px 15px 15px 30px;
+    background: #FFFFFF;
+    border: 1px solid #FF5800;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  .sale{
+    margin-right: 15px;
+  }
+  .sale span{
+    color: #FF5800;
+  }
+  .line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .wrapper1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #0000007b;
+    position: absolute;
+    top: 0; 
+    z-index: -100;
+  }
+
+.modal-window-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: fit-content;
+    background: #FFFFFF;
+    border-radius: 21px 21px 0px 0px;
+    position: relative;
+    top: 150px;
+    z-index: 100;
+    padding-top: 15px;
+}
+.wrapper1 .modal-window-name input{
+    color: #000;
+    font: 500 10px/12px Roboto;
+} 
+.wrapper1 .modal-window-name input::placeholder{
+    color: #C2C2C2;
+    font: 500 10px/12px Roboto;
+} 
+.modal-window-name p{
+    color: #000;
+    font: 500 18px/21px Ubuntu;
+}
+.modal-window-name .dop-text{
+    color: #FF5800;
+}
+.active{
+    display: none;
+}
+.modal-window-name .inner{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.modal-window-name .inner p{
+  color: #000;
+  font: 500 13px/15px Ubuntu;
+  margin-left: 5px;
+}
+.modal-window-name  .line{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #C4C4C4;
+    margin-bottom: 15px;
+}
+.modal-window-name .inner .line:last-child{
+    margin-bottom: 0;
+}
+.modal-window-name button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 40px;
+    background: #FF5800;
+    border-radius: 33px;
+    color: #FFFFFF;
+    font: 400 22px/27px Roboto;
+    margin-bottom: 5px;   
+}
+.modal-window-name button:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 40px;
+    background: #F3F3F3;
+    border-radius: 33px;
+    color: #000;
+    font: 400 22px/27px Roboto;
+    margin-bottom: 15px;  
+}
+.dop{
+  z-index: 100;
+}
+
+}
+
+
+
+  

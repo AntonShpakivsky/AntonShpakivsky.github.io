@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    <title>VSETUT</title>
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/userProfile.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/footer-phone.css" />
+    <link rel="stylesheet" href="../css/block_main_phone.css" />
+</head>
+<body>
+        <header>
+          <div class="firstline">
+            <a href="#">Мобильная версия</a>
+            <a href="#">Моя коллекция</a>
+            <a href="#">Бренды</a>
+            <a href="#">Навигация по сайту</a>
+            <a href="#">Книга отзывов и предложений</a>
+          </div>
+          <div class="line"></div>
+          <div class="secondline">
+            <div class="burger">
+              <div class="toggle-btn" onclick="openMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div id="sidebar">   
+                <ul>  
+                  <li><a href="./index_auth.html">Главная</a></li>
+                  <li><a href="">Мои заказы</a></li>
+                  <li><a href="">Корзина</a></li>
+                  <li><a href="./favorites_auth.html">Избранное</a></li>
+                  <li><a href="./index_auth.html">Товары</a></li>
+                  <li><a href="./uslugi_auth.html">Услуги</a></li>
+                  <li><a href="">Выбрать другой город</a></li>
+                  <li><a href="">Помощь</a></li>
+                  <li><a href="">Контакты</a></li>
+              </ul>
+              </div> 
+              <script>
+                function openMenu() {
+                    document.getElementById("sidebar").classList.toggle('active');
+                }
+              </script>
+            </div>
+            <div class="logotype">
+              <h1>VSETUT</h1>
+              <h2>Мир товаров и услуг</h2>
+            </div>
+            <div class="switch">
+              <a href="index.html" class="active">Товары</a>
+              <a href="uslugi.html">Услуги</a>
+              <a href="another_city.html">Выбрать другой город</a>
+            </div>
+            <div class="rightline">
+              <style>
+                header .secondline .rightline a.user::after {
+                  content: "Выйти";
+                  position: absolute;
+                  bottom: -10px;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  color: #000;
+                  font: 8px/10px Ubuntu;
+              }
+              </style>
+              <a href="../index.html" class="user">
+                <img src="../img/test/element-10_99620.svg" alt="" />
+              </a>
+              <a href="favorites_auth.html" class="wishlist">
+                <img src="../img/wishlist.svg" alt="" />
+              </a>
+              <a href="#" class="cart">
+                <img src="../img/cart.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </header>
+        <style>
+          #test11{
+            font-size: 140%;
+          }
+          #test12{
+            width: 100%;
+          }
+        </style>
+        <div class="block_main_phone" id="test12">
+            <h1 id="test11">Профиль</h1>
+        </div>
+        <div class="container_user_profile">
+          <div class="container_user_profile-inner">
+            <div class="firstline_user_profile">
+                <div class="user_name" onclick="document.location='/user_profile_1.html'">
+                  <div class="user_name-avatar">
+                    <div class="avatar">
+                      <img src="./img/user-avatar.svg" alt="" />
+                    </div>
+                    <p>Имя не указано</p>
+                  </div>
+                  <div class="user_name-data">
+                    <a href="">Телефон: +7(934)-574-55-30</a>
+                    <a href="">Выйти</a>
+                  </div>
+                </div>
+                <div class="user_delivery">
+                  <div class="user_delivery-avatar">
+                  <div class="avatar">
+                    
+                  </div>
+                  <p>Доставка</p>
+                </div>
+                <div class="user_delivery-data">
+                  <p>Ближайшая:</p>
+                  <p>Не ожидается</p>
+                </div>
+              </div>
+                <div class="user_discounts">
+                  <div class="user_discounts-avatar">
+                    <div class="avatar">
+                      
+                    </div>
+                    <p>Скидки покупателя</p>
+                  </div>
+                  <div class="user_discounts-data">
+                    <p>Сумма выкупа 0 руб</p>
+                  </div>  
+                </div>
+            </div>
+            <div class="secondline_user_profile">
+                <div class="user_cards">
+                  <p>Мои карты</p>
+                  <button>Добавить карту</button>
+                </div>
+                <div class="user_purchases">
+                  <p>Покупки</p>
+                  <p>0 товаров</p>
+                </div>
+                <div class="user_favorite_brands">
+                  <p>Лубимые бренды</p>
+                  <p>0 брендов</p>
+                </div>
+                <div class="user_notice">
+                  <p>Уведомления</p>
+                  <div class="user_notice-bell">
+                    <img src="./img/cart.svg" alt="" />
+                    <p>0 шт.</p>  
+                  </div>  
+                </div>
+            </div>
+            <div class="thirdline_user_profile">
+                <div class="user_finance">
+                  <p>Финансы и электронные чеки</p>
+                  <div class="user_finance-avatar">
+                    <div class="avatar">
+                      
+                    </div>
+                    <button>История покупок</button>
+                    <button>История операций</button>
+                    <button>Электронные чеки</button>
+                  </div>
+                </div>
+                <div class="user_favourites">
+                  <p>Избранное</p>
+                  <p>Здесь появятся товары, отмеченные как понравившиеся значком <img src="./img/like.svg" alt="" /> <br>
+                    Вы также можете добавлять товары которых нет в наличии. Если они вновь поступят в продажу, эта информация отобразится в данном разделе</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="version-phone">
+          <div class="delivery">
+            <div class="line1 " onclick="document.location='./delivery.html'">
+              <h1>Доставка</h1>
+              <img src="./img/truck_round.svg" alt="" />
+            </div>
+            <div class="line2">
+              <p>Ближайшая: не ожидается</p>
+            </div>
+          </div>
+          <div class="secondline">
+            <div class="sale" onclick="document.location='./sales.html'">
+              <h1>Скидка <span>3%</span></h1>
+            </div>
+            <div class="cards red-cards">
+              <h1>Мои карты</h1>
+            </div>
+          </div>
+          <div class="favourites " onclick="document.location='./favorites.html'">
+            <h1>Избранное</h1>
+          </div>
+          <div class="buy" onclick="document.location='./buy.html'">
+            <h1>Покупки</h1>
+          </div>
+          <div class="favorite_brands" onclick="document.location='./buy.html'">
+            <h1>Любимые бренды</h1>
+          </div>
+          <div class="finance" onclick="document.location='./Finance.html'">
+            <h1>Финансы</h1>
+          </div>
+          <div class="help" onclick="document.location='./Appeal.html'">
+            <h1>Помощь</h1>
+          </div>
+          <div class="feedback" onclick="document.location='./Reviews.html'">
+            <h1>Отзывы</h1>
+          </div>
+          <div class="Information" onclick="document.location='./Information.html'">
+            <h1>Информация</h1>
+          </div>
+        </div>
+        <div class="wrapper1 ">
+          <div class="modal-window-name">
+            <p>Мои карты</p>
+            <div class="line"></div>
+            <div class="inner">
+              <img src="./img/add-card.svg" alt="" />
+              <p>Добавить карту</p>
+            </div>
+            <div class="line"></div>
+            <button>Сохранить</button>
+            <button class="but-cansel">Отмена</button>
+          </div>
+        </div>
+        <footer>
+          <div class="footer_container">
+            <h1>ИНФОРМАЦИЯ О КОМПАНИИ VSETUT</h1>
+            <a href="">Партнерство</a>
+            <a href="">ПОМОЩЬ И ПОДДЕРЖКА</a>
+            <a href="">Цена Доставки</a>
+            <a href="">Возврат Товара</a>
+            <a href="">Как Сделать Заказ</a>
+            <a href="">Как Отследить Посылку</a>
+            <a href="">Справка Размера</a>
+            <a href="">ОБСЛУЖИВАНИЕ КЛИЕНТОВ</a>
+            <a href="">Связаться С Нами</a>
+            <a href="">Способы Оплаты</a>
+            <a href="">Социальная Ответственность</a>
+            <a href="">Связаться с Владельцем</a>
+          </div>
+        </footer>
+        <div class="footer-phone">
+          <a href="user_profile.html" class="img">
+            <img src="./img/home.svg" alt=""  />
+          </a>
+          <a href="#" class="img2" >
+            <img src="./img/shopping_cart.svg" alt="" />
+          </a>
+          <a href="#" class="img3" >
+            <img src="./img/services.svg" alt="" />
+          </a>
+          <a href="#" class="img4" >
+            <img src="./img/other-sity.svg" alt="" />
+          </a>
+        </div>
+        <script src="../js/user-profile.js"></script>
+    </body>
+</html>

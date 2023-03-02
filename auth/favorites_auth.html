@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    <title>VSETUT</title>
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/favorites.css" />
+    <link rel="stylesheet" href="../css/footer-phone.css" />
+    <link rel="stylesheet" href="../css/block_main_phone.css" />
+</head>
+<body>
+  <header>
+    <div class="firstline">
+      <a href="#">Мобильная версия</a>
+      <a href="./login.html">Войти в личный кабинет</a>
+      <a href="./registration_user.html">Зарегистрироваться бесплатно</a>
+      <a href="#">Моя коллекция</a>
+      <a href="./favorite_brands.html">Бренды</a>
+      <a href="#">Навигация по сайту</a>
+      <a href="#">Книга отзывов и предложений</a>
+    </div>
+    <div class="line"></div>
+    <div class="secondline">
+      <div class="burger">
+        <div class="toggle-btn" onclick="openMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div id="sidebar">   
+          <ul>  
+              <li><a href="./index_auth.html">Главная</a></li>
+              <li><a href="">Мои заказы</a></li>
+              <li><a href="">Корзина</a></li>
+              <li><a href="./favorites_auth.html">Избранное</a></li>
+              <li><a href="./index_auth.html">Товары</a></li>
+              <li><a href="./uslugi_auth.html">Услуги</a></li>
+              <li><a href="">Выбрать другой город</a></li>
+              <li><a href="">Помощь</a></li>
+              <li><a href="">Контакты</a></li>
+          </ul>
+        </div> 
+        <script>
+          function openMenu() {
+              document.getElementById("sidebar").classList.toggle('active');
+          }
+        </script>
+      </div>
+      <div class="logotype">
+        <h1>VSETUT</h1>
+        <h2>Мир товаров и услуг</h2>
+      </div>
+      <div class="switch">
+        <a href="#" class="active">Товары</a>
+        <a href="uslugi.html">Услуги</a>
+        <a href="another_city.html">Выбрать другой город</a>
+      </div>
+      <div class="rightline">
+        <style>
+          header .secondline .rightline a.user::after {
+            content: "Выйти";
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #000;
+            font: 8px/10px Ubuntu;
+        }
+        </style>
+        <a href="../index.html" class="user">
+          <img src="../img/test/element-10_99620.svg" alt="" />
+        </a>
+        <a href="favorites_auth.html" class="wishlist">
+          <img src="../img/wishlist.svg" alt="" />
+        </a>
+        <a href="#" class="cart">
+          <img src="../img/cart.svg" alt="" />
+        </a>
+      </div>
+    </div>
+  </header>
+      <style>
+        #test11{
+          font-size: 140%;
+        }
+        #test12{
+          width: 100%;
+        }
+      </style>
+      <div class="block_main_phone" id="test12">
+        <img src="../img/arrow_right-phone.svg" alt="" onclick="document.location='./user_profile_auth.html'">
+
+        <h1 id="test11">Избранное</h1>
+      </div>
+      <main>
+        <div class="container-favorite">
+          <p>Избранные</p>
+        <div class="text">
+          <div class="inner">
+            <p>Здесь появятся товары, отмеченные как понравившиеся значком</p> 
+            <img src="../img/like.svg" alt="" />
+          </div>
+          <p>Вы также можете добавлять товары которых нет в наличии. Если они <br> вновь поступят в продажу, эта информация отобразится в данном <br> разделе</p>
+        </div>
+        <button onclick="document.location='./index_auth.html'">Перейти на главную</button>  
+      </main>
+      <div class="version-phone">
+        <div class="zero-block">
+          <p>Нет отложенных товаров</p>
+        </div>
+      </div>
+      <footer>
+        <div class="footer_container">
+          <h1>ИНФОРМАЦИЯ О КОМПАНИИ VSETUT</h1>
+          <a href="">Партнерство</a>
+          <a href="">ПОМОЩЬ И ПОДДЕРЖКА</a>
+          <a href="">Цена Доставки</a>
+          <a href="">Возврат Товара</a>
+          <a href="">Как Сделать Заказ</a>
+          <a href="">Как Отследить Посылку</a>
+          <a href="">Справка Размера</a>
+          <a href="">ОБСЛУЖИВАНИЕ КЛИЕНТОВ</a>
+          <a href="">Связаться С Нами</a>
+          <a href="">Способы Оплаты</a>
+          <a href="">Социальная Ответственность</a>
+          <a href="">Связаться с Владельцем</a>
+        </div>
+      </footer>
+      <div class="footer-phone">
+        <a href="./user_profile_auth.html" class="img">
+          <img src="../img/home.svg" alt=""  />
+        </a>
+        <a href="#" class="img2" >
+          <img src="../img/shopping_cart.svg" alt="" />
+        </a>
+        <a href="#" class="img3" >
+          <img src="../img/services.svg" alt="" />
+        </a>
+        <a href="#" class="img4" >
+          <img src="../img/other-sity.svg" alt="" />
+        </a>
+      </div>
+</body>
+</html>

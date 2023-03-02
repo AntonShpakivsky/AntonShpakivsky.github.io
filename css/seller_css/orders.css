@@ -1,0 +1,138 @@
+  header .firstline{
+    display: flex;
+    justify-content: space-between;
+  }
+  header .firstline p:first-child{
+    color: #FF5800;
+    font: 400 30px/34px Ubuntu; 
+  }
+  main .sending-form{
+    display: flex;
+    flex-direction: column;
+    width: 1240px;
+    height: 408px;
+    background: #CADDE1;
+    color: #000;
+    font: 400 20px/23px Ubuntu; 
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+  main .sending-form table{
+    border-collapse: collapse;
+    margin-bottom: 25px;
+  }
+  main .sending-form table td{
+    border-right: solid 2px #FFFFFF;
+    padding-left: 20px; 
+    padding-bottom: 20px;
+  }
+ 
+  main .sending-form table tr:first-child{
+    font: 400 25px/29px Ubuntu; 
+  }
+  main .sending-form table {
+    border: solid 3px #CADDE1;
+  }
+  main .sending-form table .radiobox{
+    display: flex;
+    flex-direction: column;
+  }
+  main .sending-form table  input{
+      display: none;
+  }
+  main .sending-form table .radiobox label{
+    display: flex;
+    flex-direction: row; 
+  }
+
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    margin-right: 22px;
+    position: relative;
+}
+.check::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 10px;
+    background-image: url("../../img/check.svg") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.radio:checked + .check::before{
+    opacity: 1; 
+}
+main .slider-pages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 109px;
+}
+main .slider-pages .container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+main .slider-pages .container button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 98px;
+  height: 41px;
+  background: #D9F0F5;
+  border-radius: 8px;
+  color: #000;
+  font: 400 20px/23px Ubuntu; 
+  margin: 0 50px 0 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+main .slider-pages .container button img{
+  width: 6px;
+  height: 10px;
+}
+main .slider-pages .container button img:first-child{
+  margin-right: 5px;
+}
+main .slider-pages .container button img:last-child{
+  margin-left: 5px;
+}
+main .slider-pages .container a{
+  color: #000;
+  font: 400 20px/23px Ubuntu; 
+  margin-right: 10px;
+}
+main .slider-pages .container a:last-child{
+  margin-right: 0;
+}
+main .buttons{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 175px;
+}
+main .buttons button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  height: 56px; 
+  background: #C4C4C4;
+  margin-right: 40px;
+  color: #000;
+  font: 400 20px/23px Ubuntu; 
+}
+main .buttons button img{
+  margin-left: 26px;
+}
+
+

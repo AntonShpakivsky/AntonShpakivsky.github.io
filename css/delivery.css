@@ -1,0 +1,82 @@
+ main{
+    display: flex;
+    flex-direction: column;   
+ }
+ .wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper p{
+    color: #000;
+    font: 400 35px/41px Ubuntu;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+.wrapper p:nth-child(2){
+    color: #696969;
+    font: 400 20px/24px Ubuntu;
+}
+.wrapper button{
+    width: 251px;
+    height: 78px;
+    background: #FF5800;
+    border-radius: 9px;
+    color: #ffff;
+    font: 400 20px/24px Ubuntu;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: 0.2s;
+}
+.wrapper button:hover{
+    box-shadow:0 0 20px #b9b9b9;
+}
+.wrapper-phone{
+    display: none;
+}
+.footer-phone{
+    display: none;
+}
+.block_main_phone{
+    display: none;
+}
+@media (max-width: 414px){
+    .wrapper{
+        display: none;
+    }
+    .wrapper-phone{
+        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: -70px;
+        width: auto;
+        height: auto;
+        padding: 15px 15px 15px 30px;
+        background: #FFFFFF;
+        border: 1px solid #FF5800;
+        box-sizing: border-box;
+        border-radius: 8px;
+        margin: 15px;
+    }
+    .wrapper-phone p:first-child{
+        color: #000;
+        font: 500 18px/21px Ubuntu;
+    }
+    .wrapper-phone p:nth-child(2){
+        color: #999999;
+        font: 500 13px/15px Ubuntu;
+        margin-bottom: 10px;
+    }
+    .wrapper-phone button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 193px;
+        height: 48px;
+        background: #FF5800;
+        border-radius: 7px;
+        color: #FFFFFF;
+        font: 500 13px/15px Ubuntu;
+    }
+}

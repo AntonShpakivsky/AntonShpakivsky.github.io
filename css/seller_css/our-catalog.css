@@ -1,0 +1,277 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+main .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .banner .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1240px;
+    height: 434px;
+    background: #C4C4C4;
+}
+main .banner .container .inner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+main .banner .container .inner button{
+    background: transparent;
+    color: #000;
+    font: 400 20px/23px Ubuntu; 
+}
+main .banner .container .inner p{
+    color: #000;
+    font: 400 12px/14px Ubuntu; 
+}
+main .container_footer{
+    background: transparent;
+}
+main .info{
+    display: flex;
+    align-items: center;
+    width: 1240px;
+}
+main .add-info{
+    display: flex;
+    flex-direction: column;  
+}
+main .add-info p{
+    color: #000;
+    font: 400 20px/23px Ubuntu; 
+}
+main .add-info .firstline,
+main .add-info .secondline{
+    display: flex;
+    flex-direction: row;
+}
+main .add-info .firstline{
+    margin-bottom: 28px;
+    margin-top: 37px;
+}
+main .add-info .secondline{
+    margin-bottom: 10px;
+}
+main .add-info  img{
+    margin-right: 30px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+main .add-info .firstline .dop-img{
+    margin-right: 8px;
+    cursor: pointer;
+}
+main .add-info .thirdline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main .add-info .thirdline .inner{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+main .add-info .thirdline .inner .add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 27px;
+    background: #FFFFFF;
+    border: 1px solid #FF5800;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+main .add-info .thirdline .inner .add p{
+    font: 400 17px/20px Ubuntu; 
+}
+main .add-info .thirdline .item{
+    display: flex;
+    flex-direction: row;
+}
+main .add-info .thirdline .item span{
+    color: #FF5800;
+}
+main .add-info .thirdline .svg-dop{
+    width: 18px;
+    height: 18px;
+}
+main .slider-pages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .slider-pages .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+main .slider-pages .container button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 49px;
+    background: #E0E0E0;
+    color: #000;
+    font: 400 30px/34px Ubuntu; 
+    margin: 45px 60px 35px 60px;
+}
+main .slider-pages .container a{
+    color: #000;
+    font: 400 35px/40px Ubuntu; 
+    margin-right: 10px;
+}
+main .slider-pages .container a:last-child{
+    margin-right: 0;
+}
+main .container_footer{
+    margin-top: 50px;
+    padding-top: 0;
+}
+header .secondline{
+    display: none;
+}
+@media (max-width: 414px){
+    header .line{
+        display: none;
+    }
+    header .secondline{
+        display: flex;
+        width: 414px;
+        max-width: 100%;
+        justify-content: space-between;
+        background: #FFFFFF;
+        margin: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    main{
+        width: 414px;
+        max-width: calc(100% - 30px);
+    }
+    main h3{
+        color: #393939;
+        font: 400 13px/15px Ubuntu; 
+    }
+    main .banner .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 140px;
+        background: #C4C4C4;
+        border-radius: 9px;
+    }
+    main .banner .container .inner{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    main .banner .container .inner button{
+        background: transparent;
+        color: #000;
+        font: 400 4px/6px Ubuntu; 
+    }
+    main .banner .container .inner p{
+        color: #000;
+        font: 400 2px/4px Ubuntu; 
+    }
+    main .container_footer{
+        background: transparent;
+    }
+    main .info{
+        display: flex;
+        align-items: center;
+        width: 414px;
+    }
+    main .add-info{
+        display: flex;
+        flex-direction: column;  
+    }
+    main .add-info p{
+        color: #000;
+        font: 400 11px/13px Ubuntu; 
+    }
+    main .add-info .firstline,
+    main .add-info .secondline{
+        display: flex;
+        flex-direction: row;
+    }
+    main .add-info .firstline{
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    main .add-info .secondline{
+        margin-bottom: 10px;
+    }
+    main .add-info  img{
+        margin-right: 20px;
+        margin-left: 3px;
+        cursor: pointer;
+        width: 7.52px;
+        height: 7.52px; 
+    }
+    main .add-info .firstline .dop-img{
+        margin-right: 8px;
+        cursor: pointer;
+    }
+    main .add-info .thirdline{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    main .add-info .thirdline .inner{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    main .add-info .thirdline .inner .add{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        width: 110px;
+        height: 27px;
+        background: #FFFFFF;
+        border: 1px solid #FF5800;
+        box-sizing: border-box;
+        border-radius: 7px;
+        margin-right: 3px;
+        cursor: pointer;
+    }
+    main .add-info .thirdline .inner .add p{
+        font: 400 17px/20px Ubuntu; 
+    }
+    main .add-info .thirdline .item{
+        display: flex;
+        flex-direction: row;
+    }
+    main .add-info .thirdline .item span{
+        color: #FF5800;
+    }
+    main .add-info .thirdline .svg-dop{
+        margin-right: 20px;
+        margin-left: 3px;
+        cursor: pointer;
+        width: 7.52px;
+        height: 7.52px;
+    }
+    main .slider-pages{
+        display: none;
+    }
+    main .container_footer{
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+}

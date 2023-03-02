@@ -1,0 +1,68 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+main p{
+    color: #000;
+    font: 400 35px/41px Ubuntu;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+main .text{
+    display: flex;
+    flex-direction: column;
+}
+main .text p{
+    color: #696969;
+    font: 400 20px/24px Ubuntu;
+    margin: 0;
+}
+main .text .inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+main .text .inner img{
+    margin-left: 5px;
+    margin-top: 3px;
+}
+main button{
+    width: 251px;
+    height: 78px;
+    background: #FF5800;
+    border-radius: 9px;
+    color: #ffff;
+    font: 400 20px/24px Ubuntu;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: 0.2s;
+}
+main button:hover{
+    box-shadow:0 0 20px #b9b9b9;
+}
+.version-phone{
+    display: none;
+}
+.block_main_phone{
+    display: none;
+}
+@media (max-width: 414px){
+    .container-favorite{
+      display: none 
+    }
+    .version-phone{
+        display: block;
+        height: 100%;
+    }
+    .version-phone .zero-block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .version-phone .zero-block p{
+        color: #767676;
+        font: 500 24px/28px Ubuntu;
+        margin-top: 100px;
+    }
+}

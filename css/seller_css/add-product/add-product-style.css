@@ -1,0 +1,215 @@
+header{
+    margin-bottom: 25px;
+}
+header .firstline{
+    display: flex;
+    justify-content: space-between;
+}
+header .firstline p:first-child{
+    color: #FF5800;
+    font: 400 30px/34px Ubuntu; 
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+main p{
+    color: #FF0000;
+    font: 400 20px/23px Ubuntu;
+}
+main .point{
+    color: #000;
+    font: 400 22px/25px Ubuntu;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+main .dop-text{
+    color: #000;
+    font: 400 20px/23px Ubuntu;
+    margin-bottom: 20px;
+}
+main .add-photo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 25px;
+}
+main .add-photo .main-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background: #C4C4C4;
+    margin-right: 24px;
+    cursor: pointer;
+}
+main .add-photo .min-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 57px;
+    height: 57px;
+    background: #C4C4C4;
+    margin-right: 24px;
+    cursor: pointer;
+}
+main button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 265px;
+    height: 55px;
+    background: #8ABBC4;
+    border-radius: 7px;
+    color: #fff;
+    font: 400 20px/23px Ubuntu;
+}
+main .info-product{
+    margin-bottom: 50px;
+}
+main .info-product p{
+    color: #000;
+    font: 400 18px/21px Roboto; 
+    opacity: 0.6;
+    margin-bottom: 5px;
+}
+main .info-product p:first-child{
+    margin-top: 35px;
+}
+main .info-product .wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+    
+}
+main .info-product .wrapper input::placeholder{
+    color: #000;
+    font: 400 20px/23px Ubuntu;
+}
+main .info-product .wrapper  .text{
+    display: block;
+    width: 180px;
+    height: 35px;
+    background: transparent;
+    margin-right: 10px;
+    border-bottom: 2px solid #C4C4C4;
+    color: #000;
+    font: 400 20px/23px Ubuntu;
+}
+main label input{
+    display: none;
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border: 1.5px solid #C4C4C4;
+    box-sizing: border-box;
+    position: relative;
+}
+.check::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 10px;
+    background-image: url("../../../img/check.svg") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.checkbox:checked + .check::before{
+    opacity: 1; 
+}
+main .categories{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+
+}
+main .categories label .check,
+main .categories-dop label{
+    margin-right: 28px;
+    margin-left: 5px;
+}
+main .dop-text2{
+    margin-bottom: 18px;
+}
+main .teg .teg-text{
+    display: block;
+    width: 669px;
+    height: 45px;
+    background: #DDDDDD;
+    border-radius: 4px;
+    border-bottom: 2px solid #C4C4C4;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000;
+    font: 400 20px/25px Ubuntu;
+}
+main .teg input::placeholder{
+    color: #C4C4C4;
+    font: 400 20px/25px Ubuntu;
+}
+main .wrapper-table{
+    width: 1240px;
+    height: 150px;
+    background: #CADDE1;
+    padding-top: 20px;
+    padding-left: 43px; 
+    margin-bottom: 25px;
+}
+main table{ 
+    border-collapse: collapse;
+    
+}
+main table td{
+    border-right: solid 2px #FFFFFF;
+    padding-left: 20px; 
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+main table tr td .check{
+    border: 2px solid #fff;
+    margin-left: 30px;
+}
+main table tr td .inner{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+main table span{
+    font: 400 25px/30px Roboto; 
+    margin-right: 20px;
+}
+main .button-dop{
+    margin-bottom: 55px;
+}
+main .categories-dop{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+main .categories-dop:last-child{
+    margin-top: 22px;
+}
+main .categories-dop .firstline{
+    display: flex;
+    flex-direction: row;
+}
+main .categories-dop .secondline{
+    display: flex;
+    flex-direction: row;
+}
+main .categories-dop .inline{
+    display: flex;
+    flex-direction: row;
+}
+

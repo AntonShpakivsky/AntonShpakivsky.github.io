@@ -1,0 +1,325 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+main h3{
+    color: #393939;
+    font: 400 18px/21px Ubuntu;
+    margin-top: 17px;
+    margin-bottom: 22px;
+}
+main .search{
+    margin-top: 0;
+}
+main .container{
+    display: flex;
+    flex-direction: row;
+}
+main .container .product-photo{
+    display: flex;
+    flex-direction: column;
+}
+main .container .product-photo .inner{
+    display: flex;
+    flex-direction: row;
+}
+main .container .product-photo .inner .min{
+    display: flex;
+    flex-direction: column;
+}
+main .container .product-photo .inner .max{
+    display: flex;
+    flex-direction: column;
+}
+main .container .product-photo .inner .max p{
+    color: #000;
+    font: 400 20px/23px Ubuntu;
+    margin-left: 19px;
+}
+main .container .product-photo .inner .min .photo-place{
+    display: block;
+    width: 67px;
+    height: 89px;
+    background: #C4C4C4; 
+    margin-bottom: 11px;
+}
+main .container .product-photo .inner .max .photo-place{
+    display: block;
+    width: 447px;
+    height: 647px;
+    background: #C4C4C4;
+    margin-left: 19px;
+    margin-bottom: 26px;
+}
+main .product-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 68px;
+}
+main .product-info .line-info{
+    display: flex;
+    flex-direction: row;
+}
+main .product-info .size{
+    display: flex;
+    flex-direction: column;
+}
+main .product-info .size .firstline-size,
+main .product-info .size .secondline-size{
+    display: flex;
+    flex-direction: row;
+}
+main .product-info .color{
+    display: flex;
+    flex-direction: row;
+}
+main .product-info .buttons{
+    display: flex;
+    flex-direction: row;
+}
+main .product-info .description{
+    display: flex;
+    flex-direction: row;
+}
+main .product-info .line-info a{
+    color: #000;
+    font: 400 18px/21px Ubuntu;
+    margin-right: 38px;
+    margin-bottom: 23px;
+    text-decoration: none;
+}
+main .product-info .line-info a:last-child{
+    margin-right: 0;
+}
+main .product-info  h2{
+    color: #000;
+    font: 400 20px/23px Ubuntu;
+    margin-bottom: 13px;
+}
+main .product-info  p{
+    color: #000;
+    font: 500 30px/34px Ubuntu;
+    margin-bottom: 16px;
+}
+main .product-info .size-text{
+    color: #000;
+    font: 400 20px/23px Ubuntu;
+    margin-bottom: 15px;
+    margin-top: 22px;
+}
+main .product-info .size p{
+    color: #000;
+    font: 400 20px/23px Ubuntu; 
+    margin-bottom: 0;
+}
+main .product-info .size .EUR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 5px; 
+    margin-right: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+main .product-info a{
+    color: #000;
+    font: 400 15px/17px Ubuntu; 
+    text-decoration-line: underline;
+    margin-bottom: 32px;
+    margin-top: -5px;
+}
+main .product-info .color-text{
+    color: #000;
+    font: 400 20px/23px Ubuntu; 
+    margin-bottom: 10px;
+}
+main .product-info .color .color-round{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 86px;
+    margin-right: 31px;
+}
+main .product-info .color .color-round .color-white{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+main .product-info .color .color-round .color-black{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #000;
+}
+main .product-info .color .color-round .color-gray{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:  #C4C4C4;
+}
+main .product-info .color .color-round p{
+    color: #000;
+    font: 400 15px/17px Ubuntu; 
+}
+main .product-info .buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+main .product-info .buttons .active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 319px;
+    height: 55px;
+    background: #FF5800;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font: 400 18px/21px Ubuntu; 
+    margin-right: 12px;
+}
+main .product-info .buttons button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 234px;
+    height: 40.34px;
+    background: #FFFFFF;
+    border: 1px solid #FF5800;
+    box-sizing: border-box;
+    border-radius: 3.66771px;
+    color: #FF5800;
+    font: 400 15px/18px Ubuntu; 
+    margin-right: 12px;
+}
+main .product-info .description-text{
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    font: 400 20px/23px Ubuntu; 
+    margin-top: 35px;
+    margin-bottom: 12px;
+}
+main .product-info .description-text p:first-child{
+    margin-right: 285px;
+}
+main .product-info .description{
+    display: flex;
+    flex-direction: row;
+    padding: 18px 0 23px 18px;
+    width: 466px;
+    height: 207px;
+    background: #FFFFFF;
+    margin-bottom: 80px;
+}
+main .product-info .description p{
+    color: #000;
+    font: 400 14px/16px Ubuntu; 
+    margin-bottom: 2px;
+}
+main .product-info .description .parameters{
+    margin-right: 93px;
+}
+main .container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .container-2 .feedback-slider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+main .container-2 .feedback-slider .back,
+main .container-2 .feedback-slider .next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 53.97px;
+    height: 53.97px;
+    background: #FFFFFF;
+    border: 1.31745px solid #FF5800;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-right: 33px;
+    margin-left: 33px;
+}
+main .container-2 .feedback-slider .inner{
+    display: flex;
+    flex-direction: row;
+    width: 709.26px;
+    height: 218.43px;
+    background: #FFFFFF;
+    border: 1.31745px solid #FF5800;
+    box-sizing: border-box;
+    border-radius: 13.7554px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+main .container-2 .feedback-slider .inner .avatar{
+    display: block;
+    width: 67.19px;
+    height: 67.19px;
+    border-radius: 50%;
+    background: #C4C4C4;
+}
+main .container-2 .feedback-slider .inner .user-text{
+    display: flex;
+    flex-direction: column;
+    padding: 0 18px 16px 13px;
+}
+main .container-2 .feedback-slider .inner .user-text .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+main .container-2 .feedback-slider .inner .user-text .info p{
+    color: #000;
+    font: 400 26px/30px Roboto;
+}
+main .container-2 .feedback-slider .inner .user-text .info .date{
+    color: #C4C4C4;
+    font: 400 16px/19px Roboto;
+}
+main .container-2 .feedback-slider .inner .user-text .text-inner{
+    display: flex;
+    width: 595px;
+    height: 144px;
+    background: #FFFFFF;
+    border: 1px solid #FF5800;
+    box-sizing: border-box;
+    border-radius: 13.76px;
+    padding: 13px 15px;
+}
+main .container-2 .feedback-slider .inner .user-text .text-inner p{
+    color: #000;
+    font: 400 20px/24px Roboto; 
+}
+main .container-2 .buttons{
+    display: flex;
+    flex-direction: row;
+}
+main .container-2 .buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 171px;
+    height: 41.61px;
+    background: #8E8E8E;
+    border-radius: 6.50194px;
+    color: #FFFFFF;
+    font: 400 18px/22px Roboto;
+    margin-right: 27px;
+    margin-bottom: 18px;
+}
+main .container-2 .buttons button:last-child{
+    background: #FF5800;
+}
+

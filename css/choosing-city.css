@@ -1,0 +1,99 @@
+/* another_city */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+  }
+  .inner{
+    width: 814px;
+    max-width: calc(100% - 150px);
+    height: fit-content;
+    background: #FFFFFF;
+    opacity: 0.75;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 109px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 95px;
+  }
+  .inner p{
+    color: #000;
+    font: 700 30px/35px Ubuntu;
+    margin: 40px 0 45px;
+    
+  }
+  .items{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-left: 105px;
+  }
+  .items label{
+    color: #000;
+    font: 400 25px/28px Ubuntu;
+    margin-bottom: 11px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  .arrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .arrow label:hover{
+    color: #FF5800;
+  }
+  .arrow input{
+    display: none;
+  }
+  .check{
+    display: inline-block;
+    position: relative;
+    margin-left: 100px;
+}
+.check::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 19px;
+    height: 14px;
+    background-image: url("../img/checkMark.svg") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.radio:checked + .check::before{
+  opacity: 1; 
+}
+@media (max-width: 414px){
+  header{
+    height: 80px;
+  }
+  .inner{
+    width: 414px;
+    max-width: calc(100% - 15px);
+    margin-top: 0;
+  }
+  .inner p{
+    color: #000;
+    font: 700 18px/21px Ubuntu;
+    margin: 40px 0 45px;
+    
+  }
+  .items{
+    width: 80%;
+    margin-left: 50px;
+  }
+  .items label{
+    font: 400 14px/16px Ubuntu;
+    margin-bottom: 11px;
+  }
+}
+  
+

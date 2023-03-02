@@ -1,0 +1,71 @@
+header{
+    margin-bottom: 25px;
+}
+header .firstline{
+    display: flex;
+    justify-content: space-between;
+}
+header .firstline p:first-child{
+    color: #FF5800;
+    font: 400 30px/34px Ubuntu; 
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+main p:nth-child(1){
+    color: #FF0000;
+    font: 400 20px/23px Ubuntu;
+}
+main .buttons{
+    display: flex;
+    flex-direction: row;
+}
+main .buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 265px;
+    height: 55px;
+    background: #8ABBC4;
+    color: #FFFF;
+    font: 400 20px/23px Ubuntu;
+    margin-right: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main .buttons button span{
+    color: #FF0000;
+}
+main .feedback{
+    display: flex;
+    flex-direction: column; 
+    width: 710px;
+}
+main .feedback-wrapper P,
+main .user-feedback p{
+    color: #000;
+    font: 400 20px/23px Ubuntu;
+    margin-right: 20px;
+}
+main .user-feedback{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+main p{
+    color: #000;
+    font: 400 20px/23px Ubuntu; 
+}
+main p span{
+    color: #FF5800;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.answer{
+    margin-bottom: 20px;
+}
+.text{
+    margin-top: 15px;
+}

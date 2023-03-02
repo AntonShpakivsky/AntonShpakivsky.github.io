@@ -1,0 +1,35 @@
+header{
+    background: transparent;
+}
+header h1{
+    color: #000;
+    font: 400 25px/29px Ubuntu;
+    margin-right: 55px;
+}
+header p{
+    color: #000;
+    font: 400 20px/23px Ubuntu;
+    margin-right: 25px;
+}
+header img{
+    cursor: pointer;
+}
+@media (max-width: 414px){
+    header{
+        background: transparent;
+
+    }
+    header h1{
+        color: #000;
+        font: 400 25px/29px Ubuntu;
+        margin-right: 0px;
+    }
+    header p{
+        color: #000;
+        font: 400 20px/23px Ubuntu;
+        margin-right: 0px;
+    }
+    header img{
+        cursor: pointer;
+    } 
+}

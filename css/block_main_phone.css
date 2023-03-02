@@ -1,0 +1,167 @@
+@media (max-width: 414px){
+    .block_main_phone{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        width: 414px;
+        height: 70px;
+        background: #FF5800;
+        top: -70px;
+        padding-top: 20px;
+        padding-left: 15px;
+      }
+      .block_main_phone h1{
+        color: #FFFFFF;
+        font: 400 24px/28px Ubuntu;
+        text-align: center;  
+      }
+      .block_main_phone img{
+        width: 13.33px;
+        height: 25px;
+        position: absolute;
+        left: 15px;
+      }
+  
+    .block_dop-text1{
+      position: relative;
+      top:-10px;
+
+    }
+    .more{
+      opacity: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: opacity 0.5s linear, max-height 0.5s linear;
+      will-change: opacity, max-height;
+  }
+  .dop {
+      opacity: 1;
+      max-height: 600px;
+      transition: all 0.3s linear;
+      will-change: opacity, max-height;
+  }
+
+  .more1{
+      opacity: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: opacity 0.5s linear, max-height 0.5s linear;
+      will-change: opacity, max-height;
+  }
+  .dop1 {
+      opacity: 1;
+      max-height: 600px;
+      transition: all 0.3s linear;
+      will-change: opacity, max-height;
+  }
+
+  .more2{
+      opacity: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: opacity 0.5s linear, max-height 0.5s linear;
+      will-change: opacity, max-height;
+  }
+  .dop2 {
+      opacity: 1;
+      max-height: 600px;
+      transition: all 0.3s linear;
+      will-change: opacity, max-height;
+  }
+
+  .more3{
+      opacity: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: opacity 0.5s linear, max-height 0.5s linear;
+      will-change: opacity, max-height;
+  }
+  .dop3 {
+      opacity: 1;
+      max-height: 600px;
+      transition: all 0.3s linear;
+      will-change: opacity, max-height;
+  }
+
+  .more4{
+      opacity: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: opacity 0.5s linear, max-height 0.5s linear;
+      will-change: opacity, max-height;
+  }
+  .dop4 {
+      opacity: 1;
+      max-height: 600px;
+      transition: all 0.3s linear;
+      will-change: opacity, max-height;
+  }
+  .more5{
+      opacity: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: opacity 0.5s linear, max-height 0.5s linear;
+      will-change: opacity, max-height;
+  }
+  .dop5 {
+      opacity: 1;
+      max-height: 600px;
+      transition: all 0.3s linear;
+      will-change: opacity, max-height;
+  }
+  .more6{
+      opacity: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: opacity 0.5s linear, max-height 0.5s linear;
+      will-change: opacity, max-height;
+  }
+  .dop6 {
+      opacity: 1;
+      max-height: 600px;
+      transition: all 0.3s linear;
+      will-change: opacity, max-height;
+  }
+  .more7{
+      opacity: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: opacity 0.5s linear, max-height 0.5s linear;
+      will-change: opacity, max-height;
+  }
+  .dop7 {
+      opacity: 1;
+      max-height: 600px;
+      transition: all 0.3s linear;
+      will-change: opacity, max-height;
+  }
+  .arrow{
+    transition: 0.3s;
+  }
+  .arrow1{
+    transition: 0.3s;
+  }
+  .arrow2{
+    transition: 0.3s;
+  }
+  .arrow3{
+    transition: 0.3s;
+  }
+  .arrow4{
+    transition: 0.3s;
+  }
+  .arrow5{
+    transition: 0.3s;
+  }
+  .arrow6{
+    transition: 0.3s;
+  }
+  .arrow7{
+    transition: 0.3s;
+  }
+  .rotate{
+    transform: rotate(90deg);
+  }
+
+}

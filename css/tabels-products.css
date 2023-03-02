@@ -1,0 +1,177 @@
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+main .container-table{
+    margin-top:0 ;
+    margin-bottom: 70px;
+}
+main .container-table table{
+    color: #1C1C1C;
+    font: 14px/100% Ubuntu;
+    width: 1240px;
+    border-collapse: collapse;
+    background: #ffff;
+
+}
+main .container-table h1{
+    color: #000;
+    font: 18px/100% Ubuntu;
+}
+main .container-table tr{
+    border-bottom: 2px solid #C4C4C4;
+}
+main .container-table tr:first-child{
+    border-top: 2px solid #FF5800;
+}
+main .container-table td:first-child{
+    background: #ECECEC;
+    opacity: 0.8;
+}
+main .container-table td:last-child{
+    background: #ECECEC;
+    opacity: 0.8;
+    width: 100px;
+}
+main .container-table td{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+}
+main .container-table a:hover{
+    color: #FF5800;
+}
+main .container-table a:focus{
+    color: #ff0000;
+}
+main .container-table button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-left: 20px;
+}
+main .container-table button img{
+    transition: 0.3s;
+    margin-left: 5px;
+}
+main .container-table .dop {
+    display: none;
+}
+main .container-table .dop1 {
+    display: none;
+}
+.up{
+    transform: rotate(180deg);
+}
+.up1{
+    transform: rotate(180deg);
+}
+main .container-table .dop2 {
+    display: none;
+}
+.up2{
+    transform: rotate(180deg);
+}
+main .container-table .dop3 {
+    display: none;
+}
+.up3{
+    transform: rotate(180deg);
+}
+main .container-table .dop4 {
+    display: none;
+}
+.up4{
+    transform: rotate(180deg);
+}
+main .container-table .dop5 {
+    display: none;
+}
+.up5{
+    transform: rotate(180deg);
+}
+main .container-table .dop6{
+    display: none;
+}
+.up6{
+    transform: rotate(180deg);
+}
+main .container-table .dop7{
+    display: none;
+}
+.up7{
+    transform: rotate(180deg);
+}
+main .container-table .dop8{
+    display: none;
+}
+.up8{
+    transform: rotate(180deg);
+}
+main .container-table .dop9{
+    display: none;
+}
+.up9{
+    transform: rotate(180deg);
+}
+main .container-table .dop10{
+    display: none;
+}
+.up10{
+    transform: rotate(180deg);
+}
+main .container-table .dop11{
+    display: none;
+}
+.up11{
+    transform: rotate(180deg);
+}
+main .container-table .dop12{
+    display: none;
+}
+.up12{
+    transform: rotate(180deg);
+}
+main .container-table .dop13{
+    display: none;
+}
+.up13{
+    transform: rotate(180deg);
+}
+main .container-table .dop14{
+    display: none;
+}
+.up14{
+    transform: rotate(180deg);
+}
+main .container-table .dop-color-td td:nth-child(2){
+    background: #F6F6F6;
+    opacity: 0.8;
+}
+main .sort{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 10px 15px 15px 15px;
+    background-color:  #D9F0F5;
+}
+main .sort a{
+    color: #151515;
+    font: 14px/100% Ubuntu;
+    margin-right: 40px;
+    transition: 0.5s;
+}
+main .sort a:hover{
+    color: #000;
+    font: 15px/100% Ubuntu;
+}
+main .sort a:focus{
+    color: #FF5800;
+}
+
+
+
+

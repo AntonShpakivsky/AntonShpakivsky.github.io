@@ -1,0 +1,52 @@
+header{
+    margin-bottom: 25px;
+}
+header .firstline{
+    display: flex;
+    justify-content: space-between;
+}
+header .firstline p:first-child{
+    color: #FF5800;
+    font: 400 30px/34px Ubuntu; 
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+main .firstline,
+main .secondline{
+    display: flex;
+    flex-direction:row; 
+    margin-bottom: 20px;
+}
+main .secondline{
+    margin-bottom: 50px;
+}
+main .thirdline,
+main .forthline{
+    display: flex;
+    flex-direction:column; 
+}
+main .thirdline .inner,
+main .fourthline .inner{
+    display: flex;
+    flex-direction:row; 
+}
+main .thirdline  h2,
+main .fourthline  h2{
+    margin-bottom: 15px;
+}
+main .thirdline .inner p,
+main .fourthline .inner p{
+    margin-bottom: 32px;
+    margin-right: 150px;
+}
+main h2{
+    color: #000;
+    font: 400 25px/28px Ubuntu;
+    margin-right: 60px;
+}
+main p{
+    color: #636363;
+    font: 400 20px/23px Ubuntu;
+}

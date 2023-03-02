@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    <title>VSETUT</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/registration.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Войти</h1>
+        <div class="form">
+            <form  id="form">
+                <div class="form-item">
+                    <label for="0">E-mail или номер телефона:</label>
+                    <input type="text" id="0" name="email">
+                </div>
+                <div class="form-item">
+                    <label for="0">Пароль:</label>
+                    <input type="text" id="0" name="password">
+                </div>
+                <style>
+                    #test22{
+                        display: block;
+                        text-decoration: none;
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                </style>
+                <button class="submit-user" type="submit"><a href = "./auth/index_auth.html" id = "test22">ВОЙТИ</a></button>
+                <a href="#">Забыли пароль?</a>
+            </form>
+        </div>
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+</html>
