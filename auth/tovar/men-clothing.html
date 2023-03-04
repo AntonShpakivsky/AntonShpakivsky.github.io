@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    <title>VSETUT</title>
+    <link rel="stylesheet" href="../../css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/footer-phone.css" />
+  </head>
+
+  <body>
+      <header>
+        <div class="firstline">
+          <a href="#">Мобильная версия</a>
+          <a href="./login.html">Войти в личный кабинет</a>
+          <a href="./registration_user.html">Зарегистрироваться бесплатно</a>
+          <a href="#">Моя коллекция</a>
+          <a href="./favorite_brands.html">Бренды</a>
+          <a href="#">Навигация по сайту</a>
+          <a href="#">Книга отзывов и предложений</a>
+        </div>
+        <div class="line"></div>
+        <div class="secondline">
+          <div class="burger">
+            <div class="toggle-btn" onclick="openMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div id="sidebar">   
+              <ul>  
+                <li><a href="./../index_auth.html">Главная</a></li>
+                <li><a href="">Мои заказы</a></li>
+                <li><a href="">Корзина</a></li>
+                <li><a href="./../favorites_auth.html">Избранное</a></li>
+                <li><a href="./../tovar-spisok.html">Товары</a></li>
+                <li><a href="./../uslugi_auth.html">Услуги</a></li>
+                <li><a href="">Выбрать другой город</a></li>
+                <li><a href="">Помощь</a></li>
+                <li><a href="">Контакты</a></li>
+              </ul>
+            </div> 
+            <script>
+              function openMenu() {
+                  document.getElementById("sidebar").classList.toggle('active');
+              }
+            </script>
+          </div>
+          <div class="logotype">
+            <h1>VSETUT</h1>
+            <h2>Мир товаров и услуг</h2>
+          </div>
+          <div class="switch">
+            <a href="#" class="active">Товары</a>
+            <a href="uslugi.html">Услуги</a>
+            <a href="another_city.html">Выбрать другой город</a>
+          </div>
+          <div class="rightline">
+            <style>
+              header .secondline .rightline a.user::after {
+                content: "Выйти";
+                position: absolute;
+                bottom: -10px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: #000;
+                font: 8px/10px Ubuntu;
+            }
+            </style>
+            <a href="../../../index.html" class="user">
+              <img src="../../img/test/element-10_99620.svg" alt="" />
+            </a>
+            <a href="../favorites_auth.html" class="wishlist">
+              <img src="../../img/wishlist.svg" alt="" />
+            </a>
+            <a href="#" class="cart">
+              <img src="../../img/cart.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </header>
+      <form class="search">
+        <input type="text" placeholder="Я ищу..." />
+        <a href="#">
+          <img src="../../img/search-photo.svg" alt="" />
+        </a>
+        <button type="submit">Найти</button>
+      </form>
+      <main>
+        <nav>
+          <h3><a href="#">Товары</a></h3>
+          <h4 id="female-clothing"><a href="#">Женская одежда</a></h4>
+          <h4><a href="#">Мужская одежда</a></h4>
+          <h4><a href="#">Детская одежда</a></h4>
+          <h4><a href="#">Женская обувь</a></h4>
+          <h4><a href="#">Мужская обувь</a></h4>
+          <h4><a href="#">Детская обувь</a></h4>
+          <h4><a href="#">Аксессуары</a></h4>
+          <h4><a href="#">Спорт и отдых</a></h4>
+          <h4><a href="#">Десткие игрушки</a></h4>
+          <h4><a href="#">Красота и здоровье</a></h4>
+          <h4><a href="#">Товары для дома</a></h4>
+          <h4><a href="#">Товары для сада</a></h4>
+          <h4><a href="#">Электроника</a></h4>
+          <h4><a href="#">Бытовая техника</a></h4>
+          <h4><a href="#">Книги</a></h4>
+          <h4><a href="#">Зоотовары</a></h4>
+          <h4><a href="#">Туризм</a></h4>
+          <h4><a href="#">Продукты</a></h4>
+          <h4><a href="#">Стройка и ремонт</a></h4>
+          <h4><a href="#">Автотовары</a></h4>
+          <h4><a href="#">Ювелирные изделия</a></h4>
+          <h4><a href="#">Канцтовары</a></h4>
+          <h4><a href="#">Охота</a></h4>
+          <h4><a href="#">Рыбалка</a></h4>
+          <h4><a href="#">Хобби и творчество</a></h4>
+          <h4><a href="#">Мебель</a></h4>
+          <h4><a href="#">Товары для курения</a></h4>
+        </nav>
+        <div class="center">
+          <div class="swiper-container firstslider">
+            <div class="swiper-wrapper">
+              <style>
+                  .test{
+                    width: 100%;
+                    height: 100%;
+                  }
+              </style>
+              <div class="swiper-slide"><img class = "test" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr4jQNCdrYYkQtVWB-BiIBRdmyoRSlJ7uDoQ&usqp=CAU"></div>
+              <div class="swiper-slide"><img class = "test" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr4jQNCdrYYkQtVWB-BiIBRdmyoRSlJ7uDoQ&usqp=CAU"></div>
+              <div class="swiper-slide"><img class = "test" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr4jQNCdrYYkQtVWB-BiIBRdmyoRSlJ7uDoQ&usqp=CAU"></div>
+              <div class="swiper-slide"><img class = "test" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr4jQNCdrYYkQtVWB-BiIBRdmyoRSlJ7uDoQ&usqp=CAU"></div>
+           
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div class="containerslider">
+            <div class="swiper-container secondslider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="img"></div>
+                  <p>Оформить заказ</p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img"></div>
+                  <p>Дисконт</p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img"></div>
+                  <p>Новинки</p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img"></div>
+                  <p>Эксклюзив</p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img"></div>
+                  <p>Скидки</p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img"></div>
+                  <p>Помощь</p>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img"></div>
+                  <p>Доставка</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next second-next"></div>
+            <div class="swiper-button-prev second-prev"></div>
+          </div>
+          <style>
+            .test1234{
+                margin: 1%;
+            }
+          </style>
+          <div class="buttons">
+            <button  class="test1234">Рядом с Вами</button>
+            <button  class="test1234">Кемерово</button>
+            <button  class="test1234">Выбрать город</button>
+            <button  class="test1234">Все</button>
+          </div>
+        </div>
+        <div class="right">
+          <div class="m-r-f-line">
+            <div></div>
+            <p>Добро пожаловать во VSESUT!</p>
+          </div>
+          <div class="m-r-s-line">
+            <a href="./login.html">Войти в профиль</a>
+            <a href="#">Зарегестрировать магазин</a>
+          </div>
+          <div class="m-r-box"></div>
+        </div>
+      </main>
+      <div class="container_footer">
+        <h3>Мужская одежда</h3>
+        <section class="content">
+          <div class="item">
+            <div class="img">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0wVvb61hhYAo_nUByiXELVfyG7vl5j3Dzfg&usqp=CAU" alt="">
+            </div>
+            <div class="i-line">
+              <div class="color"></div>
+              <p class="name"> Мужская одежда больших размеров</p>
+            </div>
+            <p class="discount">Скидка 50 ₽ для новичков</p>
+            <p class="price">1250 ₽</p>
+            <p class="description">Компания Gayo..</p>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0wVvb61hhYAo_nUByiXELVfyG7vl5j3Dzfg&usqp=CAU" alt="">
+            </div>
+            <div class="i-line">
+              <div class="color"></div>
+              <p class="name"> Мужская одежда больших размеров</p>
+            </div>
+            <p class="discount">Скидка 50 ₽ для новичков</p>
+            <p class="price">1250 ₽</p>
+            <p class="description">Компания Gayo..</p>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0wVvb61hhYAo_nUByiXELVfyG7vl5j3Dzfg&usqp=CAU" alt="">
+            </div>
+            <div class="i-line">
+              <div class="color"></div>
+              <p class="name"> Мужская одежда больших размеров</p>
+            </div>
+            <p class="discount">Скидка 50 ₽ для новичков</p>
+            <p class="price">1250 ₽</p>
+            <p class="description">Компания Gayo..</p>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0wVvb61hhYAo_nUByiXELVfyG7vl5j3Dzfg&usqp=CAU" alt="">
+            </div>
+            <div class="i-line">
+              <div class="color"></div>
+              <p class="name"> Мужская одежда больших размеров</p>
+            </div>
+            <p class="discount">Скидка 50 ₽ для новичков</p>
+            <p class="price">1250 ₽</p>
+            <p class="description">Компания Gayo..</p>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0wVvb61hhYAo_nUByiXELVfyG7vl5j3Dzfg&usqp=CAU" alt="">
+            </div>
+            <div class="i-line">
+              <div class="color"></div>
+              <p class="name"> Мужская одежда больших размеров</p>
+            </div>
+            <p class="discount">Скидка 50 ₽ для новичков</p>
+            <p class="price">1250 ₽</p>
+            <p class="description">Компания Gayo..</p>
+          </div>
+          <div class="item">
+            <div class="img">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0wVvb61hhYAo_nUByiXELVfyG7vl5j3Dzfg&usqp=CAU" alt="">
+            </div>
+            <div class="i-line">
+              <div class="color"></div>
+              <p class="name"> Мужская одежда больших размеров</p>
+            </div>
+            <p class="discount">Скидка 50 ₽ для новичков</p>
+            <p class="price">1250 ₽</p>
+            <p class="description">Компания Gayo..</p>
+          </div>
+        </section>
+      </div>
+    <div class="footer-phone">
+      <a href="user_profile.html" class="img">
+        <img src="./img/home.svg" alt=""  />
+      </a>
+      <a href="#" class="img2" >
+        <img src="./img/shopping_cart.svg" alt="" />
+      </a>
+      <a href="#" class="img3" >
+        <img src="./img/services.svg" alt="" />
+      </a>
+      <a href="#" class="img4" >
+        <img src="./img/other-sity.svg" alt="" />
+      </a>
+    </div>
+    <script src="../../js/swiper-bundle.min.js"></script>
+    <script src="../../js/script.js"></script>
+  </body>
+</html>
