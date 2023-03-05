@@ -14,80 +14,81 @@
   </head>
 
   <body>
-      <style>
-        #header{
-          height: 7ch;
-        }
-    </style>
-      <header id="header">
-        <div class="firstline">
-          <a href="#">Мобильная версия</a>
-          <a href="./login.html">Войти в личный кабинет</a>
-          <a href="./registration_user.html">Зарегистрироваться бесплатно</a>
-          <a href="#">Моя коллекция</a>
-          <a href="./favorite_brands.html">Бренды</a>
-          <a href="#">Навигация по сайту</a>
-          <a href="#">Книга отзывов и предложений</a>
-        </div>
-        <div class="line"></div>
-        <div class="secondline">
-          <div class="burger">
-            <div class="toggle-btn" onclick="openMenu()">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div id="sidebar">   
-              <ul>  
-                <li><a href="./index_auth.html">Главная</a></li>
-                <li><a href="">Мои заказы</a></li>
-                <li><a href="">Корзина</a></li>
-                <li><a href="./favorites_auth.html">Избранное</a></li>
-                <li><a href="./tovar-spisok.html">Товары</a></li>
-                <li><a href="./uslugi-spisok.html">Услуги</a></li>
-                <li><a href="">Выбрать другой город</a></li>
-                <li><a href="">Помощь</a></li>
-                <li><a href="">Контакты</a></li>
-            </ul>
-            <script>
-              function openMenu() {
-                  document.getElementById("sidebar").classList.toggle('active');
-              }
-            </script>
+    <style>
+      #header{
+        height: 7ch;
+      }
+  </style>
+    <header id="header">
+      <div class="firstline">
+        <a href="#">Мобильная версия</a>
+        <a href="./login.html">Войти в личный кабинет</a>
+        <a href="./registration_user.html">Зарегистрироваться бесплатно</a>
+        <a href="#">Моя коллекция</a>
+        <a href="./favorite_brands.html">Бренды</a>
+        <a href="#">Навигация по сайту</a>
+        <a href="#">Книга отзывов и предложений</a>
+      </div>
+      <div class="line"></div>
+      <div class="secondline">
+        <div class="burger">
+          <div class="toggle-btn" onclick="openMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
-          <div class="logotype">
-            <h1>VSETUT</h1>
-            <h2>Мир товаров и услуг</h2>
-          </div>
-          <div class="switch">
-            <a href="#" class="active">Товары</a>
-            <a href="uslugi.html">Услуги</a>
-            <a href="another_city.html">Выбрать другой город</a>
-          </div>
-          <div class="rightline">
-            <style>
-              header .secondline .rightline a.user::after {
-                content: "Выйти";
-                position: absolute;
-                bottom: -10px;
-                left: 50%;
-                transform: translateX(-50%);
-                color: #000;
-                font: 8px/10px Ubuntu;
+          <div id="sidebar">   
+            <ul>  
+              <li><a href="./index_auth.html">Главная</a></li>
+              <li><a href="">Мои заказы</a></li>
+              <li><a href="">Корзина</a></li>
+              <li><a href="./favorites_auth.html">Избранное</a></li>
+              <li><a href="./tovar-spisok.html">Товары</a></li>
+              <li><a href="./uslugi-spisok.html">Услуги</a></li>
+              <li><a href="">Выбрать другой город</a></li>
+              <li><a href="">Помощь</a></li>
+              <li><a href="">Контакты</a></li>
+          </ul>
+          </div> 
+          <script>
+            function openMenu() {
+                document.getElementById("sidebar").classList.toggle('active');
             }
-            </style>
-            <a href="../index.html" class="user">
-              <img src="../img/test/element-10_99620.svg" alt="" />
-            </a>
-            <a href="favorites_auth.html" class="wishlist">
-              <img src="../img/wishlist.svg" alt="" />
-            </a>
-            <a href="#" class="cart">
-              <img src="../img/cart.svg" alt="" />
-            </a>
-          </div>
+          </script>
         </div>
-      </header>
+        <div class="logotype">
+          <h1>VSETUT</h1>
+          <h2>Мир товаров и услуг</h2>
+        </div>
+        <div class="switch">
+          <a href="#" class="active">Товары</a>
+          <a href="uslugi.html">Услуги</a>
+          <a href="another_city.html">Выбрать другой город</a>
+        </div>
+        <div class="rightline">
+          <style>
+            header .secondline .rightline a.user::after {
+              content: "Выйти";
+              position: absolute;
+              bottom: -10px;
+              left: 50%;
+              transform: translateX(-50%);
+              color: #000;
+              font: 8px/10px Ubuntu;
+          }
+          </style>
+          <a href="../index.html" class="user">
+            <img src="../img/test/element-10_99620.svg" alt="" />
+          </a>
+          <a href="favorites_auth.html" class="wishlist">
+            <img src="../img/wishlist.svg" alt="" />
+          </a>
+          <a href="#" class="cart">
+            <img src="../img/cart.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </header>
       <main>
         <style>
             #tovar{
