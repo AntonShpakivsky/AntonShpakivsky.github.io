@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    <title>VSETUT</title>
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/footer-phone.css" />
+  </head>
+
+  <body>
+      <style>
+        #header{
+          height: 7ch;
+        }
+    </style>
+      <header id="header">
+        <div class="firstline">
+          <a href="#">Мобильная версия</a>
+          <a href="./login.html">Войти в личный кабинет</a>
+          <a href="./registration_user.html">Зарегистрироваться бесплатно</a>
+          <a href="#">Моя коллекция</a>
+          <a href="./favorite_brands.html">Бренды</a>
+          <a href="#">Навигация по сайту</a>
+          <a href="#">Книга отзывов и предложений</a>
+        </div>
+        <div class="line"></div>
+        <div class="secondline">
+          <div class="burger">
+            <div class="toggle-btn" onclick="openMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div id="sidebar">   
+              <ul>  
+                <li><a href="./index_auth.html">Главная</a></li>
+                <li><a href="">Мои заказы</a></li>
+                <li><a href="">Корзина</a></li>
+                <li><a href="./favorites_auth.html">Избранное</a></li>
+                <li><a href="./tovar-spisok.html">Товары</a></li>
+                <li><a href="./uslugi-spisok.html">Услуги</a></li>
+                <li><a href="">Выбрать другой город</a></li>
+                <li><a href="">Помощь</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+            </div> 
+            <script>
+              function openMenu() {
+                  document.getElementById("sidebar").classList.toggle('active');
+              }
+            </script>
+          </div>
+          <div class="logotype">
+            <h1>VSETUT</h1>
+            <h2>Мир товаров и услуг</h2>
+          </div>
+          <div class="switch">
+            <a href="#" class="active">Товары</a>
+            <a href="uslugi.html">Услуги</a>
+            <a href="another_city.html">Выбрать другой город</a>
+          </div>
+          <div class="rightline">
+            <style>
+              header .secondline .rightline a.user::after {
+                content: "Выйти";
+                position: absolute;
+                bottom: -10px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: #000;
+                font: 8px/10px Ubuntu;
+            }
+            </style>
+            <a href="../index.html" class="user">
+              <img src="../img/test/element-10_99620.svg" alt="" />
+            </a>
+            <a href="favorites_auth.html" class="wishlist">
+              <img src="../img/wishlist.svg" alt="" />
+            </a>
+            <a href="#" class="cart">
+              <img src="../img/cart.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </header>
+      <main>
+        <style>
+            #tovar{
+              display: block;
+              width: 100%;
+              margin: 0%;
+            }
+            .te{
+              font-size: 190%;
+            }
+            
+              h4::after {
+                content: "";
+                  position: absolute;
+                  top: 50%;
+                  left: -42px;
+                  transform: translateY(-50%);
+                  width: 20px;
+                  height: 20px;
+                  background-position: center;
+                  background-size: contain;
+              }
+              #auction_court::after {
+                  background: url(../img/test/svg1/auction_court_law_sale_icon_196593.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+              #financial_teamwork::after {
+                  background: url(../img/test/svg1/marketing_financial_teamwork_management_corporate_finance_business_icon_231879.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+                #household::after {
+                  background: url(../img/test/svg1/household_chores_task_cleaning_mopping_floor_mop_icon_133392.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+                #egyptian::after {
+                  background: url(../img/test/svg1/3465596-desert-egypt-egyptian-giza-landmark-pyramid-tourism_107614.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+                #carriage::after {
+                  background: url(../img/test/svg1/021carriage_114138.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+                #building::after {
+                  background: url(../img/test/svg1/building_estate_home_house_property_icon_123291.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+                #auto-car::after {
+                  background: url(../img/test/svg1/4213473-auto-car-parking-rental-transport-transportation-vehicle_115383.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+                #repair::after {
+                  background: url(../img/test/svg1/4014665-fix-fixing-phone-repair-tool-wrench_112887.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+                #review::after {
+                  background: url(../img/test/svg1/review_feedback_like_occupation_job_worker_builder_contractor_construction_icon_219094.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+                #cosmetics::after {
+                  background: url(../img/test/svg1/nail_polish_cosmetics_beauty_icon_186713.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+                #health::after {
+                  background: url(../img/test/svg1/health_96630.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+                #line::after {
+                  background: url(../img/test/svg1/1455554777_line-97_icon-icons.com_53360.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+                #book::after {
+                  background: url(../img/test/svg1/3586376-book-education-learning-teacher_107951.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+                #verificationcheckmark::after {
+                  background: url(../img/test/svg1/verificationcheckmark_114631.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+                #computer::after {
+                  background: url(../img/test/svg1/3643757-computer-desktop-monitor-pc-personal_113441.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+                #death::after {
+                  background: url(../img/test/svg1/skull_knife_death_dead_dagger_skeleton_horror_head_icon_131606.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+                #promotion::after {
+                  background: url(../img/test/svg1/promotion_advertising_marketing_icon_219992.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+                #game::after {
+                  background: url(../img/test/svg1/game_game_console_play_device_icon_133759.svg) no-repeat;
+                  background-position: center;
+                  background-size: contain;
+                  left: -36px;
+                }
+        </style>
+        <nav id="tovar">
+            <h2 class="te">Услуги</h2>
+            <h4 id="auction_court"><a href="uslugi/auction_court.html">Юридические</a></h4>
+            <h4 id="financial_teamwork"><a href="uslugi/financial_teamwork.html">Финансовые</a></h4>
+            <h4 id="household"><a href="uslugi/household.html">Бытовые</a></h4>
+            <h4 id="egyptian"><a href="uslugi/egyptian.html">Туризм</a></h4>
+            <h4 id="carriage"><a href="uslugi/carriage.html">Перевозки</a></h4>
+            <h4 id="building"><a href="uslugi/building.html">Недвижимость</a></h4>
+            <h4 id="auto-car"><a href="uslugi/auto-car.html">Автосервис</a></h4>
+            <h4 id="repair"><a href="uslugi/repair.html">Ремонт</a></h4>
+            <h4 id="review"><a href="uslugi/review.html">Стройка</a></h4>
+            <h4 id="cosmetics"><a href="uslugi/cosmetics.html">Красота</a></h4>
+            <h4 id="health"><a href="uslugi/health.html">Здоровье</a></h4>
+            <h4 id="line"><a href="uslugi/line.html">Спорт</a></h4>
+            <h4 id="book"><a href="uslugi/book.html">Образовательные</a></h4>
+            <h4 id="verificationcheckmark"><a href="uslugi/verificationcheckmark.html">Экспертизы</a></h4>
+            <h4 id="computer"><a href="uslugi/computer.html">Всё для ПК</a></h4>
+            <h4 id="death"><a href="uslugi/death.html">Ритуальные</a></h4>
+            <h4 id="promotion"><a href="uslugi/promotion.html">Полиграфия и реклама</a></h4>
+            <h4 id="game"><a href="uslugi/game.html">Развлечение</a></h4>
+        </nav>
+      </main>
+    <div class="footer-phone">
+      <a href="user_profile.html" class="img">
+        <img src="./img/home.svg" alt=""  />
+      </a>
+      <a href="#" class="img2" >
+        <img src="./img/shopping_cart.svg" alt="" />
+      </a>
+      <a href="#" class="img3" >
+        <img src="./img/services.svg" alt="" />
+      </a>
+      <a href="#" class="img4" >
+        <img src="./img/other-sity.svg" alt="" />
+      </a>
+    </div>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
